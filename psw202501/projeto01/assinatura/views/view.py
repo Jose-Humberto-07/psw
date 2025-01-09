@@ -59,6 +59,6 @@ ss = SubscriptionService(engine)
 #subscription = Subscription(empresa='teste', site='teste.com.br', data_assinatura=date.today(), valor=37.90)
 #ss.create(subscription)
 
-print(ss.list_all())
+print(ss.total_value())
 
 
